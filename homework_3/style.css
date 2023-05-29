@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 89px;
+}
+
+.navbar-logo {
+    margin-top: 40px;
+}
+
+.navbar-logo-text {
+    margin-top: 45px;
+}
+
+
+.navbar-link {
+    margin-top: 51px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.button {
+    margin-top: 52px;
+}
+
+.logo {
+    margin-top: 162px;
+}
