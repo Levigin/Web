@@ -1,0 +1,241 @@
+* { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./fonts/Gilroy-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/Gilroy-Medium.woff2") format("woff2");
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_link {
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    font-size: 14px;
+}
+
+.l1 {
+    color: #F25822;
+}
+
+
+.top_content {
+    margin-bottom: 162px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 17px;
+    max-width: 522px;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.text {
+    max-width: 466px;
+    color: #888888;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.top_buttons {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
+}
+
+.start {
+    color: #FFFFFF;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.video {
+    color: #AAAAAA;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    font-family: "Gilroy", sans-serif;
+    font-size: 15px;
+}
+
+.features {
+    display: grid;
+    grid-template-rows: 226px;
+    grid-template-columns: 310px 310px 310px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 59px;
+
+}
+
+.elem {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.elem2 {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.img_feat {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.feat_subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.feat_text {
+    max-width: 310px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.services {
+    margin-top: 192px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+.title_servs {
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.feat_t {
+    max-width: 690px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
+.servs_greed {
+    display: grid;
+    grid-template-rows: 549px;
+    grid-template-columns: 370px 370px 370px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.servs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ser2 {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.img_servs {
+    width: 370px;
+    height: 270px;
+    margin-bottom: 22px;
+}
+
+.feat_subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.feat_text_s {
+    max-width: 310px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+}
+
